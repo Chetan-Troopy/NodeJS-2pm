@@ -5,6 +5,7 @@ const app = express();
 const PORT = 8000;
 
 
+
 // Custom Middleware : Check for secret Key 
 
 function checkAuth(req, res, next) {
